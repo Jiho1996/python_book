@@ -7,20 +7,22 @@ character = {
     "skill" : ["베기", "물기", "꼬집기"]
 }
 
-for key in character:
-    if type(character[key]) != dict and type(character[key]) != list:
-        print(key ,":",character[key])
+print(character["skill"][0])
 
-    elif type(character[key]) is dict:
+#for key in character:
+#    if type(character[key]) != dict and type(character[key]) != list:
+#        print(key ,":",character[key])
 
-        for smallkey in character[key] :
+#    elif type(character[key]) is dict:
 
-            print(key,":", character["items"][smallkey])
+#        for smallkey in character[key] :
+
+#            print(key,":", character["items"][smallkey])
 
 
-    elif type(character[key]) is list :
+#    elif type(character[key]) is list :
 
-        for i in range(3) :
-            print(key, ":", character["skill"][i])
+#        for i in range(3) :
+#            print(key, ":", character["skill"][i])
 
 
