@@ -8,7 +8,7 @@ def seat(remain, seating) :
     if key in memo :
         return memo[key]
     if remain < 0:
-        return 0  # 무효하니 0을 리턴
+        return 0  # 무효하니 0을 리턴dd
     if remain == 0:
         return 1  # 유효하니 수를 세면 되서 1을 리턴
         # 재귀 처리
