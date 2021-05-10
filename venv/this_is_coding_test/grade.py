@@ -1,7 +1,8 @@
-num = int(input("몇명 ?"))
+import sys
 
-grade = list(map(int,input().split(" ")))
+#data = sys.stdin.readline().rstrip()
+#print(type(data))
+#print(data)
 
-
-grade.sort(reverse=True)
-print(grade)
+answer = 8
+print("정답은 %d입니다."%answer)
