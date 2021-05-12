@@ -7,6 +7,7 @@ rst = 0
 for i in coin:
     rst = rst + (N // i)
     N = N - ((N // i)*i)
+    # N %= i
 
 print(rst)
 
