@@ -1,5 +1,7 @@
+gil = [[0,1], [0,3]]
 
-names = ['gildong', 'suji', 'minwoo', 'tom', 'jimmy']
 
-for i in range(len(names)):
-    print("index : %d, Name : %s" %(i, names[i]))
+now = gil[0][1]
+print(now)
+now = gil[1]
+print(now)
