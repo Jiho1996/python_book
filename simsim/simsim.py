@@ -20,7 +20,7 @@ end_time = time.time()
 
 print("시간:",end_time-start_time)
 
-
+#------------------------------------------------
 p = pow(B,1/N)
 a = round(p,0)
 print("두번째답:",int(a))
